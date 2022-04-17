@@ -1,0 +1,48 @@
+:root {
+    --mainColor: #3944F7;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--mainColor);
+    font-family: 'Roboto', sans-serif;
+}
+.main-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner-div {
+    background-color: white;
+    padding: 40px 100px;
+    max-width: 50%;
+}
+.inner-div ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+.inner-div ul li { 
+    margin-top: 0.5rem;
+}
+.inner-div button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: var(--mainColor);
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.scoreArea {
+    margin-top: 1.5rem;
+    text-align: center;
+}
