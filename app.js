@@ -9,11 +9,11 @@ const quizQuestions = [
     },
     {
         question: "What is Full Form of CSS",
-        a: "CSS",
-        b: "SSC",
+        a: "SSC",
+        b: "CSS",
         c: "SCS",
         d: "CCC",
-        ans: "ans1"
+        ans: "ans2"
     },
     {
         question: "What is Full Form of SCSS",
